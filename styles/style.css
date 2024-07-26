@@ -1,3 +1,59 @@
-h1 {
-    color: purple;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.hero {
+    background-image: url("../images/home.jpg");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    color: #DDDDDD;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 900;
+    font-family: cursive;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+
+.article {
+    width: 85%;
+    margin: 50px auto;
+    background-color: #DDDDDD;
+    padding: 20px;
+    border-color: #88D66C;
+    border-style: groove;
+    border-width: 15px;
+
+}
+
+.article h2 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid #88D66C;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.article p {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.article p .imp {
+    font-size: 2rem;
+    background-color: silver;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    display: inline-block;
 }
