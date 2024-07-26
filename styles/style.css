@@ -12,6 +12,9 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+
 }
 
 .hero h1 {
@@ -25,7 +28,7 @@
     letter-spacing: 10px;
 }
 
-.article {
+.article, #vill-imp {
     width: 85%;
     margin: 50px auto;
     background-color: #DDDDDD;
@@ -36,7 +39,7 @@
 
 }
 
-.article h2 {
+.article h2, #vill-imp h2 {
     text-align: center;
     font-size: 40px;
     border-bottom: 2px solid #88D66C;
@@ -44,7 +47,7 @@
     margin-bottom: 15px;
 }
 
-.article p {
+.article p, #vill-imp p {
     font-size: 20px;
     line-height: 2em;
 }
@@ -56,4 +59,25 @@
     height: 50px;
     padding: 10px;
     display: inline-block;
+}
+
+#vill-imp {
+    background: linear-gradient(45deg, gray, green, skyblue)
+}
+
+#vill-images {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#vill-images div {
+    width: 300px;
+}
+
+#vill-images img {
+    width: 100%;
+    border: 1px solid green;
+    border-radius: 5px;
 }
